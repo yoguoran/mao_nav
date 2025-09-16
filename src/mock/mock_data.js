@@ -5,7 +5,64 @@ export const mockData = {
       "icon": "☁️",
       "name": "常用",
       "order": 0,
-      "sites": []
+      "sites": [
+        {
+          "id": "site-1758020297736",
+          "name": "青龙面板",
+          "url": "https://ql.qinxiaobai.dpdns.org/",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/09/05/68baff1e7e4af.jpeg"
+        },
+        {
+          "id": "site-1758020326637",
+          "name": "WiFi",
+          "url": "https://wifi.qinxiaobai.dpdns.org:9118/",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/06/08/6845806b4c1ec.png"
+        },
+        {
+          "id": "site-1758020352030",
+          "name": "Lucky",
+          "url": "https://lucky.qinxiaobai.dpdns.org:9118/",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/06/06/68424c03b790a.png"
+        },
+        {
+          "id": "site-1758020370862",
+          "name": "面板",
+          "url": "https://ui.qinxiaobai.dpdns.org:9118/#/",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/06/03/683e8bcb3c1bb.jpg"
+        },
+        {
+          "id": "site-1758020391627",
+          "name": "测速",
+          "url": "https://flowloss.net",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/09/16/68c93f58d4df8.png"
+        },
+        {
+          "id": "site-1758020419280",
+          "name": "通知提醒",
+          "url": "https://tz.qinxiaobai.dpdns.org",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/09/16/68c93f58d8284.png"
+        },
+        {
+          "id": "site-1758020443062",
+          "name": "订阅转换",
+          "url": "https://dy.yoguoran.dpdns.org",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/09/16/68c93f58ac6a3.png"
+        },
+        {
+          "id": "site-1758020474043",
+          "name": "出去看看",
+          "url": "https://cfjd.qinxiaobai.dpdns.org/abfcc656-a1b6-4130-af45-bca24f6d0d12",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/09/16/68c93e7f541a3.png"
+        }
+      ]
     },
     {
       "id": "dev-tools",
@@ -83,10 +140,23 @@ export const mockData = {
           "url": "https://www.douban.com",
           "description": "文艺生活社区",
           "icon": "/sitelogo/www.douban.com.ico"
+        },
+        {
+          "id": "site-1758020227577",
+          "name": "猫儿FM",
+          "url": "https://www.missevan.com/",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/09/16/68c941189b94b.png"
+        },
+        {
+          "id": "site-1758020259815",
+          "name": "音乐宝",
+          "url": "https://www.gequbao.com/",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/09/16/68c9411895033.png"
         }
       ]
     }
   ],
-  "title": "简单导航",
-  "_fileSha": "3f401ad24dda6009f53a9146d6ad114b04251dc3"
+  "title": "简单导航"
 }
