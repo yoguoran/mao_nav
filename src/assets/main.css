@@ -6,6 +6,12 @@
   margin: 0;
   padding: 0;
   font-weight: normal;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4eaf1 100%);
+  transition: background 0.5s ease;
+}
+
+.dark #app {
+  background: linear-gradient(135deg, #1a1a1a 0%, #0f172a 100%);
 }
 
 /* 重置默认样式 */
@@ -13,7 +19,7 @@
   box-sizing: border-box;
 }
 
-  body {
+body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -21,4 +27,125 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background: transparent;
+}
+
+/* 磨砂玻璃效果基础样式 - 增强版 */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* 磨砂玻璃效果变体 */
+.glass-effect-light {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+.glass-effect-medium {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.08);
+}
+
+.glass-effect-strong {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* 暗色模式下的磨砂玻璃效果 */
+.dark .glass-effect {
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.dark .glass-effect-light {
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark .glass-effect-medium {
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.25);
+}
+
+.dark .glass-effect-strong {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* 为主要容器添加背景渐变，增强磨砂玻璃效果 */
+.nav-home {
+  position: relative;
+  overflow: hidden;
+}
+
+/* 添加背景装饰元素，增强深度感 */
+.nav-home::before,
+.dark .nav-home::before {
+  content: '';
+  position: fixed;
+  width: 60vw;
+  height: 60vw;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+  transition: all 0.8s ease;
+}
+
+.nav-home::before {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  top: -20vw;
+  left: -20vw;
+}
+
+.dark .nav-home::before {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  top: -20vw;
+  left: -20vw;
+}
+
+.nav-home::after,
+.dark .nav-home::after {
+  content: '';
+  position: fixed;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.1;
+  z-index: 0;
+  pointer-events: none;
+  transition: all 0.8s ease 0.2s;
+}
+
+.nav-home::after {
+  background: linear-gradient(135deg, #3498db, #9b59b6);
+  bottom: -15vw;
+  right: -15vw;
+}
+
+.dark .nav-home::after {
+  background: linear-gradient(135deg, #10b981, #3b82f6);
+  bottom: -15vw;
+  right: -15vw;
 }
