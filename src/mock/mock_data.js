@@ -65,10 +65,53 @@ export const mockData = {
       ]
     },
     {
+      "id": "entertainment",
+      "name": "娱乐休闲",
+      "icon": "🎮",
+      "order": 1,
+      "sites": [
+        {
+          "id": "bilibili",
+          "name": "哔哩哔哩",
+          "url": "https://www.bilibili.com",
+          "description": "弹幕视频网站",
+          "icon": "/sitelogo/www.bilibili.com.ico"
+        },
+        {
+          "id": "youtube",
+          "name": "YouTube",
+          "url": "https://www.youtube.com",
+          "description": "视频分享平台",
+          "icon": "/sitelogo/www.youtube.com.ico"
+        },
+        {
+          "id": "douban",
+          "name": "豆瓣",
+          "url": "https://www.douban.com",
+          "description": "文艺生活社区",
+          "icon": "/sitelogo/www.douban.com.ico"
+        },
+        {
+          "id": "site-1758020227577",
+          "name": "猫儿FM",
+          "url": "https://www.missevan.com/",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/09/16/68c941189b94b.png"
+        },
+        {
+          "id": "site-1758020259815",
+          "name": "音乐宝",
+          "url": "https://www.gequbao.com/",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/09/16/68c9411895033.png"
+        }
+      ]
+    },
+    {
       "id": "dev-tools",
       "name": "开发工具",
       "icon": "🛠️",
-      "order": 1,
+      "order": 2,
       "sites": [
         {
           "id": "github",
@@ -111,49 +154,6 @@ export const mockData = {
           "url": "https://www.oracle.com/java/technologies/downloads/",
           "description": "Oracle官方Java下载",
           "icon": "/sitelogo/www.oracle.com.ico"
-        }
-      ]
-    },
-    {
-      "id": "entertainment",
-      "name": "娱乐休闲",
-      "icon": "🎮",
-      "order": 2,
-      "sites": [
-        {
-          "id": "bilibili",
-          "name": "哔哩哔哩",
-          "url": "https://www.bilibili.com",
-          "description": "弹幕视频网站",
-          "icon": "/sitelogo/www.bilibili.com.ico"
-        },
-        {
-          "id": "youtube",
-          "name": "YouTube",
-          "url": "https://www.youtube.com",
-          "description": "视频分享平台",
-          "icon": "/sitelogo/www.youtube.com.ico"
-        },
-        {
-          "id": "douban",
-          "name": "豆瓣",
-          "url": "https://www.douban.com",
-          "description": "文艺生活社区",
-          "icon": "/sitelogo/www.douban.com.ico"
-        },
-        {
-          "id": "site-1758020227577",
-          "name": "猫儿FM",
-          "url": "https://www.missevan.com/",
-          "description": "",
-          "icon": "https://free.picui.cn/free/2025/09/16/68c941189b94b.png"
-        },
-        {
-          "id": "site-1758020259815",
-          "name": "音乐宝",
-          "url": "https://www.gequbao.com/",
-          "description": "",
-          "icon": "https://free.picui.cn/free/2025/09/16/68c9411895033.png"
         }
       ]
     }
