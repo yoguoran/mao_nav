@@ -75,6 +75,13 @@ export const mockData = {
           "url": "https://www.missevan.com/",
           "description": "",
           "icon": "https://free.picui.cn/free/2025/09/16/68c941189b94b.png"
+        },
+        {
+          "id": "site-1758605393948",
+          "name": "记事本",
+          "url": "https://notebook.qinxiaobai.dpdns.org/",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/09/16/68c93f58ac6a3.png"
         }
       ]
     },
@@ -84,6 +91,20 @@ export const mockData = {
       "icon": "🎮",
       "order": 1,
       "sites": [
+        {
+          "id": "site-1758604907596",
+          "name": "cloudflare",
+          "url": "https://dash.cloudflare.com/",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "id": "site-1758605124638",
+          "name": "Github",
+          "url": "https://github.com/",
+          "description": "",
+          "icon": "https://free.picui.cn/free/2025/09/23/68d22f147985e.png"
+        },
         {
           "id": "bilibili",
           "name": "哔哩哔哩",
